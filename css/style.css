@@ -1,0 +1,425 @@
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style-type: none;
+}
+
+body {
+	font-size: 17px;
+	font-family: 'Tahoma', sans-serif;
+	color: #999;
+	margin: 0 auto;
+}
+
+.container {
+	width: 940px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+
+.header-page {
+	position: fixed;
+  width: 100%;
+  z-index: 1;
+	background-color: #2d2d2d;
+}
+
+.header-page-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.header-page-wrapper ul {
+	display: flex;
+}
+
+.header-page-wrapper span {
+	margin-top: 10px;
+	font-size: 30px;
+}
+
+.header-page-wrapper a:hover,
+.header-page-wrapper span:hover {
+	color: #fff;
+}
+
+.header-page-wrapper a:active,
+.header-page-wrapper span:active {
+	color: #999;
+}
+
+.header-page-wrapper a {
+	font-size: 24px;
+	/* width:120px;
+	display:block; */
+	color: #999;
+	padding: 5px;
+}
+
+.header-page-wrapper li {
+	margin-right: 10px;
+}
+
+.header-page-wrapper a:hover {
+	background: #999;
+}
+
+.main-intro {
+	height: 500px;
+	background: url("../img/bg.jpg") no-repeat center top;
+	box-shadow: inset 0px 0px 400px 110px rgba(0, 0, 0, .7);
+	background-size: 100%;
+	background-position: center center;
+}
+
+.main-intro-left h2 {
+	margin-top: 70px;
+	font-size: 48px;
+}
+
+.main-intro-left span {
+	font-size: 36px;
+}
+
+.main-intro-left {
+	color: #fff;
+	text-shadow: 1px 1px 1px black, 0 0 1em black;
+	/* Параметры тени */
+}
+
+.main-intro-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.main-intro-wrapper input {
+	display: block;
+}
+
+.main-invite-new,
+.main-our-games {
+	background-color: #2d2d2d;
+}
+
+.main-invite-new-wrapper {
+	height: 550px;
+	position: relative;
+}
+
+.main-invite-new-wrapper form {
+	width: 250px;
+}
+
+.main-invite-new-wrapper:after {
+	top: 30px;
+	left: 200px;
+	position: absolute;
+	content: "";
+	height: 575px;
+	width: 739px;
+	background: url(../img/invoker_pseudo.png);
+	background-size: 100%;
+	background-position: center center;
+}
+
+.main-contacts-wrapper h3,
+.main-invite-new-wrapper h3,
+.main-our-games-wrapper h3 {
+	margin-top: 0px;
+	text-align: center;
+}
+
+.main-our-games-wrapper h3,
+.main-invite-new-wrapper {
+	padding-top: 25px;
+}
+
+.main-our-games-wrapper ul {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 0px;
+}
+
+.icon-dota2,
+.icon-csgo,
+.icon-lol,
+.icon-hs {
+	width: 125px;
+	height: 125px;
+}
+
+.icon-dota2 {
+	background: url("../img/dota_2_logo.svg");
+	background-size: cover;
+}
+
+.icon-csgo {
+	background: url("../img/cs_go.png");
+	background-size: cover;
+}
+
+.icon-lol {
+	background: url("../img/lol_logo.png");
+	background-size: cover;
+}
+
+.icon-hs {
+	background: url("../img/hs_logo.png");
+	background-size: cover;
+}
+
+.icon-hs:hover,
+.icon-lol:hover,
+.icon-csgo:hover,
+.icon-dota2:hover {
+	opacity: 0.5;
+}
+
+.icon-hs:active,
+.icon-lol:active,
+.icon-csgo:active,
+.icon-dota2:active {
+	opacity: 0.3;
+}
+
+.main-our-games-wrapper li {
+	margin: 0 10px;
+}
+
+.main-invite-new-wrapper input {
+	display: block;
+}
+
+.main-invite-new-wrapper form {
+	margin-bottom: 0px;
+}
+
+.main-contacts-wrapper p,
+.main-about-us-wrapper p {
+	width: 550px;
+	margin-top: 0px;
+}
+
+.main-contacts-wrapper p,
+.main-about-us-wrapper p {
+	color: #fff;
+	text-shadow: 1px 1px 1px black, 0 0 1em black;
+	margin: 0 auto;
+	padding-top: 45px;
+	padding-bottom: 45px;
+	text-align: center;
+	/* position:relative; */
+	/* z-index:2; */
+}
+
+.main-about-us {
+	height: 500px;
+	background: url("../img/about_us_bg.jpg") no-repeat center top;
+	/* background:#2d2d2d; */
+	box-shadow: inset 0px 0px 400px 110px rgba(0, 0, 0, .7);
+	background-size: 100%;
+	background-position: center center;
+}
+
+.main-media {
+	background-color: #2d2d2d;
+}
+
+.main-media-wrapper p {
+	margin: 0;
+	width: 450px;
+}
+
+.main-media-wrapper {
+	padding-top: 45px;
+	padding-bottom: 45px;
+	position: relative;
+}
+
+.main-hs-cards {
+	position: absolute;
+	content: "";
+	width: 250px;
+	height: 267px;
+	left: 530px;
+	top: -35px;
+	background: url(../img/hs_cards.png);
+	background-size: 100%;
+	background-position: center center;
+}
+
+.main-hs-cards:hover {
+	opacity: 0.5;
+}
+
+.main-hs-cards:active {
+	opacity: 0.3;
+}
+
+.main-contacts {
+	/* height:500px; */
+	background: url("../img/contacts_bg.jpg") no-repeat center top;
+	box-shadow: inset 0px 0px 400px 110px rgba(0, 0, 0, 0.99);
+	/* background:rgba(0, 76, 158, 1); */
+	background-size: 100%;
+	background-position: center center;
+}
+
+.main-contacts-wrapper {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+
+.main-cour-image {
+	display: none;
+	position: absolute;
+	content: "";
+	width: 400px;
+	height: 330px;
+	left: 700px;
+	top: 200px;
+	/*  background: url(../img/dota_2_cour_after.png); */
+	background-size: 100%;
+	background-position: center center;
+}
+
+.main-contacts-wrapper h3 {
+	padding-top: 45px;
+	color: #fff;
+	text-shadow: 1px 1px 1px black, 0 0 1em black;
+}
+
+.main-contacts-wrapper iframe {
+	margin: 0 auto;
+	margin-bottom: 25px;
+}
+
+.footer-socials {
+	background: #2d2d2d;
+}
+
+.footer-socials-wrapper {
+	padding-top: 15px;
+	background: #2d2d2d;
+	padding-bottom: 15px;
+}
+
+.footer-socials-wrapper h3 {
+	margin-top: 0px;
+}
+
+.footer-socials-wrapper ul {
+	margin-bottom: 0px;
+	display: flex;
+	justify-content: center;
+}
+
+.main-form-players {
+	margin-top: 75px;
+	background: rgba(153, 153, 153, 0.75);
+}
+
+.main-form-players span {
+	color: #fff;
+	background-color: #2d2d2d;
+	display: block;
+	width: 250px;
+	text-align: center;
+}
+
+.form-nickname,
+.form-game,
+.form-email,
+.form-fio {
+	text-align: center;
+	background-color: rgba(45, 45, 45, 0.9);
+	margin-bottom: 15px;
+}
+
+.form-fio input,
+.form-email input,
+.form-nickname input,
+.form-game input {
+	display: block;
+	width: 200px;
+	height: 25px;
+	margin-left: 25px;
+	border: none;
+	outline: none;
+	background-color: rgba(207, 48, 48, 1);
+	border-radius: 5px 5px 0 0;
+}
+
+.form-fio input:hover,
+.form-email input:hover,
+.form-nickname input:hover,
+.form-game input:hover {
+	background: rgba(255, 48, 48, 1);
+}
+
+.form-submit {
+	margin: 0 auto;
+	border: none;
+	width: 125px;
+	height: 45px;
+	background-color: #00e35b;
+	border-radius: 5px 5px 0 0;
+}
+
+.form-submit:hover {
+	background: #00ff5b;
+}
+
+.form-submit:active {
+	background: #00b45b
+}
+
+.f-icon-vk {
+	background: url("../img/icon-vk.svg") no-repeat;
+	display: block;
+	width: 60px;
+	height: 40px;
+	background-size: 100%;
+	background-position: center center;
+}
+
+.f-icon-inst {
+	background: url("../img/insta-icon.svg") no-repeat;
+	display: block;
+	width: 65px;
+	height: 70px;
+	margin-left: 160px;
+	background-size: 100%;
+	background-position: center center;
+}
+
+.f-icon-vk:hover,
+.f-icon-inst:hover {
+	opacity: 0.5;
+}
+
+.f-icon-vk:active,
+.f-icon-inst:active {
+	opacity: 0.3;
+}
+
+@keyframes preload {
+	from {
+		opacity: 0;
+	}
+	25% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+#preload-animation {
+	animation-name: preload;
+	animation-duration: 3s;
+	animation-timing-function: linear;
+}
